@@ -1,1 +1,1 @@
-# -terraform-provider-wsa
+# terraform-provider-wsa
