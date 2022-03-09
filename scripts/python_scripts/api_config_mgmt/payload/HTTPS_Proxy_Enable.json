@@ -1,0 +1,22 @@
+{
+    "accept_license": "true",
+    "expired_cert": "drop",
+    "is_x509v3_critical": "False",
+    "expires": "10",
+    "invalid_leaf_cert": "drop",
+    "unrecognized_root": "drop",
+    "invalid_signing_cert": "drop",
+    "user_acknowledgement": "true",
+    "country": "IN",
+    "common_name": "TESTREST",
+    "org_unit": "CISCO3",
+    "mismatched_hostname": "drop",
+    "current_cert_type": "generated",
+    "user_notification": "true",
+    "authentication": "true",
+    "https_ports": "8080",
+    "https_enabled": "true",
+    "org": "CISCO",
+    "application_visibility": "true",
+    "other_error": "drop"
+}

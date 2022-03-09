@@ -1,0 +1,6 @@
+{ 
+    "basic_auth_token_ttl" : 3600,
+    "surrogate_timeout" : 3500,
+    "client_ip_idle_timeout" : 3600,
+    "restriction_timeout" : 3600
+}

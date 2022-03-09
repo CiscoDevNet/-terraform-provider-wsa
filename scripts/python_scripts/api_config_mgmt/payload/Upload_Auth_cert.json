@@ -1,0 +1,8 @@
+{
+    "@files_upload":[
+        [
+            "certificate",
+            "payload/files/Baltimore CyberTrust Root.cert.pem"
+        ]
+    ]
+}

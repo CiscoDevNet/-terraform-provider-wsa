@@ -1,0 +1,24 @@
+[	
+    {
+        "category_type": "local",
+        "list_order": 1,
+        "category_name": "Test1",
+        "sites_regex": ["abc.[com|in]"],
+        "sites": [
+            "google.com", "cisco.com"
+        ],
+        "commments": ""
+    },
+	{
+	"category_type": "external",
+	"category_name": "Test2",
+	"list_order": 1,
+	"interface_option": "Management",
+	"feed_type": "cisco",
+	"feed_location": "server205.cs1/files/feeds/feeds.csv",
+	"protocol_type": "https",
+	"auto_update": true,	
+	"auto_update_freq": 12,
+	"comments": "cisco feed"
+	}
+]

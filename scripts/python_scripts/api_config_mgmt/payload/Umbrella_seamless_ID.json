@@ -1,0 +1,10 @@
+{
+    "cisco_umbrella_seamless_id": {
+        "swg_proxy": {
+            "host": "54.185.245.81",
+            "ports": ["10", "43"]
+        },
+        "start_test": 1,
+        "org_id": "4709668"
+    }
+}

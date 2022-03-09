@@ -1,0 +1,18 @@
+        {
+            "used_by_ocsp": false,
+            "proxy_servers": [
+                {
+                    "retries": 2,
+                    "host": "2.22.33.44",
+                    "port": 3128
+                },
+                {
+                    "retries": 2,
+                    "host": "3.33.44.55",
+                    "port": 3128
+                }
+            ],
+            "load_balancing": "fewest-connections",
+            "failure_handling": "drop",
+            "group_name": "UpstreamProxyName 2"
+        }

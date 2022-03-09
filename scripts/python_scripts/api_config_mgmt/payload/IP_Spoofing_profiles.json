@@ -1,0 +1,12 @@
+{
+    "ip_spoofing_profiles": [
+        {
+            "profile_name": "IPspoofingProfileTest1",
+            "ip_address": "10.1.1.0"
+        },
+        {
+            "profile_name": "IPspoofTest2",
+            "ip_address": "2001:420:80:1::5"
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "@files_upload": [
+        ["file1", "payload/files/test1.pac"],
+        ["file2", "payload/files/test2.pac"]
+    ]
+}

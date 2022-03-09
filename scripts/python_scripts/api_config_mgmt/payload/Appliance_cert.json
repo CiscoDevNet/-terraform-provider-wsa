@@ -1,0 +1,17 @@
+[
+        {
+            "status": "Active",
+            "issued_by": "Cisco",
+            "domains": "",
+            "city": "Bangalore",
+            "country": "IN",
+            "org_unit": "Cisco",
+            "state": "Karnataka",
+            "organization": "Cisco",
+            "priv_key_size": 2048,
+            "expiration": 730,
+            "cert_name": "Cisco1",
+            "common_name": "Cisco",
+            "overwrite": true
+        }
+    ]

@@ -1,0 +1,55 @@
+{
+  "identification_profiles": [
+    {
+      "status": "enable",
+      "profile_name": "ID1",
+      "order": 1,
+      "members": {
+        "user_agents": {
+          "predefined": [
+            "Chrome",
+            "adobe_updater"
+          ],
+          "is_inverse": 0,
+          "custom": []
+        },
+        "url_categories": {
+          "predefined": [],
+          "custom": []
+        },
+        "ip": [
+          "10.1.1.0/24"
+        ],
+        "proxy_ports": [
+          "3128"
+        ],
+        "protocols": [
+          "http",
+          "https",
+          "ftp"
+        ]
+      },
+      "protocols": [
+        "http",
+        "https",
+        "ftp"
+      ],
+      "description": "Default settings",
+      "identification_method": {
+        "auth_scheme": [
+          "Basic"
+        ],
+        "auth_sequence": "TestRealm1",
+        "auth_surrogate_by_proto": {
+          "ftp": "ip",
+          "http": "ip",
+          "https": "ip"
+        },
+        "prompt_on_sso_failure": "authenticate",
+        "use_forward_surrogates": 1,
+        "sso_scheme": "sso_none",
+        "use_guest_on_auth_failure": 1
+      }
+    }
+  ]
+}

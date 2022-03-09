@@ -1,0 +1,27 @@
+{
+    "auth_realms": [
+        {
+            "tui_enabled": true,
+            "name": "TestRealm1",
+            "ldap_server": {
+                "servers": [
+                    {
+                        "host": "1.2.3.4",
+                        "port": 32
+                    }
+                ]
+            },
+            "advance_settings": {
+                "request_per_second": 0,
+                "presistent_connection_enabled": true
+            },
+            "version": 3,
+            "base_dn": "dc=mycompany",
+            "use_secure_ldap": true,
+            "scheme": [
+                "Basic"
+            ],
+            "type": "LDAP"
+        }
+    ]
+}

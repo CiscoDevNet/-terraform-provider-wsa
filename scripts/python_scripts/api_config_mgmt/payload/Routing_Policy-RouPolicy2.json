@@ -1,0 +1,27 @@
+{
+    "routing_policies": [
+        {
+            "policy_description": "Test Routing Policy",
+            "ip_spoofing": "use_global",
+            "policy_order": 1,
+            "policy_status": "enable",
+            "policy_name": "RouPolicy2",
+            "membership": {
+                "subnets": ["10.1.1.0"],
+                "url_categories": {
+                            "predefined": [
+                            ]
+                        },
+                "identification_profiles": [
+                    {
+                        "profile_name": "ID2",
+                        "auth": "All Authenticated Users"
+                    }
+                ]
+            },
+            "routing_destination": {
+                "upstream_proxy_group": "use_global"
+            }
+        }
+    ]
+}

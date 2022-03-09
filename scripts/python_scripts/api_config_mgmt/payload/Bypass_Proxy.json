@@ -1,0 +1,8 @@
+{
+        "bypass_list": [
+            "2001:420:80:1::5",
+            "10.0.0.1",
+            "example.com"
+        ],
+        "webex_bypass_enabled": false
+    }

@@ -1,0 +1,30 @@
+{
+    "access_policies": [
+        {
+            "policy_status": "enable",
+            "policy_name": "TestAP2",
+            "membership": {
+                "identification_profiles": [
+                    {
+                        "profile_name": "ID2",
+                        "auth": "All Authenticated Users"
+                    }
+                ],
+                "subnets": ["10.1.1.0/24"]
+            },
+            "objects": {
+                "state": "use_global"
+            },
+            "protocols_user_agents": {
+                "state": "use_global"
+            },
+            "http_rewrite_profile": "use_global",
+            "policy_description": "Test Policy description",
+            "policy_order": 1,
+            
+            "amw_reputation": {
+                "state": "use_global"
+            }
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+        "is_internet_root_dns": false,
+        "alternatedns": [],
+        "domain_search": [],
+        "secondarydns": [],
+        "routing_table": "Management",
+        "int_root_alt_servers": [],
+        "primarydns": [
+            {
+                "priority": 0,
+                "ip_address": "172.31.0.2"
+            }
+        ],
+        "ip_address_preference": "Prefer IPv4",
+        "wait_time_RDNS_lookups": 20
+    }
